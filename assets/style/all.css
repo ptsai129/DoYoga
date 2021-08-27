@@ -13356,6 +13356,24 @@ fieldset:disabled .btn {
   }
 }
 
+body {
+  font-size: Noto Sans TC;
+  line-height: 1.5;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
 .index__h1 {
   color: #00cc99;
   font-size: 20px;
