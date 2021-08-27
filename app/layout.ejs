@@ -11,48 +11,76 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-            </li>
-          </ul>
-          <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
-        </div>
+   <header class="bg-success py-4">
+     <div class="container">
+    <div class="d-flex  justify-content-between align-items-center">
+     <a href="#">
+       <img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/DOYOGA-logo.png?raw=true" alt="yogalogo" width=96>
+     </a>
+       <nav class="d-none d-lg-flex">
+         <a  class="me-8" href="#">課程介紹</a>
+         <a  class="me-8" href="#">瑜珈空間</a>
+         <a href="#">當月課表</a>
+       </nav>
+      <div class="contactButtons d-none d-lg-flex">
+      <button type="button" class="me-3 btn btn-link btn-outline-secondary">立即預約</button>
+      <button type="button" class="btn btn-link btn-outline-secondary">聯絡我們</button>
       </div>
-    </nav>
+    </div>
+    </div>
+   </header>
+
 
     <%- contents %>
+    <footer class="bg-secondary">
+      <div class="container">
+        <div class="row">
+        <div class="subscribe d-flex flex-column flex-lg-row justify-content-between py-8 border-bottom border-light">
+        <h3 class="text-light">現在訂閱，獲得課程優惠碼！</h3>
+        <div class="col-md-4">
+        <div class="input-group">
+          <input type="text" class="form-control" placeholder="輸入您的電子信箱" aria-label="Recipient's username" aria-describedby="basic-addon2">
+          <button type="button" class=" text-light btn btn-primary">訂閱</button>
+        </div>
+       </div>
+      </div>
+        </div>
+        <!--
+        <div class="emailinput ">
+        <input type="text" placeholder="輸入您的電子信箱">
+        <button type="button" class=" text-light btn btn-primary">訂閱</button>
+        </div>
+        -->
+      </div>
+        <div class="container">
+        <div class="row py-8">
+          <div class="col-md-4">
+        <img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/DOYOGA.png?raw=true" alt="whiteyogalogo" width=96>
+        <ul>
+          <li class="mt-2"><a class="text-light" href="#">課程介紹</a></li>
+          <li class="mt-2"><a class="text-light"  href="#">瑜珈空間</a></li>
+          <li class="mt-2"><a class="text-light"  href="#">當月課表</a></li>
+        </ul>
+        </div>
+        <div class="col-md-4 d-flex justify-content-center align-items-end text-light">
+          <p>© 2021. All Rights Reserved.</p>
+        </div>
+        
+        <div class="col-md-4 d-flex justify-content-end">
+          <a class="me-3" href="#"><i class="fab fa-facebook fs-4 text-white"></i></a>
+          <a class="me-3" href="#"><i class="fab fa-instagram fs-4 text-white"></i></a>
+          <a href="#"><i class="fab fa-line fs-4 text-white"></i></a>
+        </div>
+        </div>
+        
+      </div>
+      </div>
 
-    <footer class="footer">
-      footer
+      </div>
     </footer>
+    
+
+
 
     <script src="./assets/js/vendors.js"></script>
     <script src="./assets/js/all.js"></script>
