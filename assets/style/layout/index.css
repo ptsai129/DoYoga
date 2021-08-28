@@ -1,0 +1,67 @@
+.banner {
+  background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/photo-1612157777902-5382bc6e864b.jpeg?raw=true);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 582px;
+}
+
+.py-185 {
+  padding-top: 185px;
+  padding-bottom: 185px;
+}
+
+.fullBodyWorkout {
+  background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/photo-1593810450967-f9c42742e326.jpeg?raw=true);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.decompression {
+  background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/photo-1593810451137-5dc55105dace.jpeg?raw=true);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.fitness {
+  background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/photo-1599901860904-17e6ed7083a0.jpeg?raw=true);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.py-145 {
+  padding-top: 145px;
+  padding-bottom: 145px;
+}
+
+@media (min-width: 576px) {
+  .fullBodyWorkout, .decompression, .fitness {
+    height: 420px;
+  }
+  .fullBodyWorkout h5, .decompression h5, .fitness h5 {
+    padding-top: 314px;
+  }
+}
+
+@media (min-width: 768px) {
+  .fullBodyWorkout, .decompression, .fitness {
+    height: 252px;
+  }
+  .fullBodyWorkout h5, .decompression h5, .fitness h5 {
+    padding-top: 136px;
+  }
+}
+
+@media (min-width: 992px) {
+  .fullBodyWorkout, .decompression, .fitness {
+    height: 420px;
+  }
+  .fullBodyWorkout h5, .decompression h5, .fitness h5 {
+    padding-top: 314px;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */
