@@ -13751,6 +13751,11 @@ ul {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  height: 420px;
+}
+
+.fullBodyWorkout h5, .fullBodyWorkout .h5 {
+  padding-top: 314px;
 }
 
 .decompression {
@@ -13758,6 +13763,11 @@ ul {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  height: 420px;
+}
+
+.decompression h5, .decompression .h5 {
+  padding-top: 314px;
 }
 
 .fitness {
@@ -13765,20 +13775,16 @@ ul {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  height: 420px;
+}
+
+.fitness h5, .fitness .h5 {
+  padding-top: 314px;
 }
 
 .py-145 {
   padding-top: 145px;
   padding-bottom: 145px;
-}
-
-@media (min-width: 576px) {
-  .fullBodyWorkout, .decompression, .fitness {
-    height: 420px;
-  }
-  .fullBodyWorkout h5, .fullBodyWorkout .h5, .decompression h5, .decompression .h5, .fitness h5, .fitness .h5 {
-    padding-top: 314px;
-  }
 }
 
 @media (min-width: 768px) {
