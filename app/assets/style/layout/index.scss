@@ -15,7 +15,10 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-  
+    height:420px;
+    h5{
+        padding-top: 314px;
+    }
 
 }
 
@@ -24,8 +27,10 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-   
-
+     height:420px;
+     h5{
+        padding-top: 314px;
+    }
   
 }
 
@@ -34,18 +39,18 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    height:420px;
+    h5{
+        padding-top: 314px;
+    }
    
 }
 
+.py-145{
+  padding-top: 145px;
+  padding-bottom: 145px;
+}
 
-@media (min-width: 576px) { 
-    .fullBodyWorkout , .decompression ,.fitness{
-        height: 420px;
-        h5{
-            padding-top: 314px;
-        }
-    }
- }
 
 @media (min-width: 768px) {
     .fullBodyWorkout , .decompression ,.fitness{
