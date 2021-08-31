@@ -13819,4 +13819,37 @@ ul {
   overflow: hidden;
 }
 
+.steps {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.mb-88 {
+  margin-bottom: 88px;
+}
+
+@media (min-width: 768px) {
+  .mb-104 {
+    margin-bottom: 104px;
+  }
+}
+
+@media (min-width: 576px) {
+  .mb-80 {
+    margin-bottom: 80px;
+  }
+}
+
+.primary {
+  color: #907a7b;
+}
+
+.datepicker-cell.selected, .datepicker-cell.selected:hover {
+  background-color: #907a7b;
+}
+
+.datepicker-picker {
+  color: #907a7b;
+}
+
 /*# sourceMappingURL=all.css.map */
