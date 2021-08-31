@@ -2,3 +2,22 @@
     padding-top: 12px;
     padding-bottom: 12px;
 }
+
+.mb-88{
+    margin-bottom: 88px;
+}
+
+@media (min-width: 768px) {
+    .mb-104{
+        margin-bottom: 104px;
+    }
+    
+}
+
+
+
+ @media (min-width: 576px) { 
+   .mb-80{
+       margin-bottom: 80px;
+   }
+  }

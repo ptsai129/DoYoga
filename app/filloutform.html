@@ -1,0 +1,96 @@
+---
+title: FillOutTheForm
+layout: ./app/layout.ejs
+engine: ejs
+current: index
+---
+
+<div class="container">
+    <div class="row">
+<h3 class="text-secondary text-center mb-3 mt-11">立即預約</h3>
+<ul class="d-flex justify-content-center text-center">
+    <li class="col-3 col-md-2 col-lg-2  bg-success rounded  text-secondary me-7 steps">選擇方案</li>
+    <li class="col-3 col-md-2 col-lg-2 bg-secondary rounded text-light me-7 steps">填寫資料</li>
+    <li class="col-3 col-md-2 col-lg-2 bg-success rounded text-secondary steps">完成預約</li>
+</ul>
+</div>
+</div>
+
+<div class="container">
+    <div class="row justify-content-center mt-5">
+        <div class="col-12 col-lg-4 col-md-6">
+            <p class="text-center text-info">您選擇的是 <span class="fs-5 text-primary">首次體驗課程-基礎</span></p>
+           <form action="get">
+            <p>1. 是否接觸過瑜珈?</p>
+            <div class="mb-8">
+             <input type="radio" name="yes" id="yes" value="yes">
+             <label for="yes">是</label>
+             <input type="radio" name="no" id="no" value="no">
+             <label for="no">否</label>
+            </div>
+            <p>2. 想改善的生活問題?</p>
+            <div class="mb-3">
+                <input type="checkbox" name="muscleloss" id="muscleloss" value="muscleloss">
+                <label for="muscleloss">肌耐力不足</label>
+                <input type="checkbox" name="poorflexibility" id="poorflexibility" value="poorflexibility">
+                <label for="poorflexibility">柔軟度不佳</label>
+                <input type="checkbox" name="stressedout" id="stressedout" value="stressedout">
+                <label for="stressedout">壓力大</label>
+            </div>
+            <div class="mb-8">
+                <input type="checkbox" name="incorrectposture" id=incorrectposture" value="incorrectposture">
+                <label for="incorrectposture">姿勢不正</label>
+                <input type="checkbox" name="poorsleepingquality" id="poorsleepingquality" value="poorsleepingquality">
+                <label for="poorsleepingquality">睡眠品質差</label>
+                <input type="checkbox" name="attentiondeficit" id="attentiondeficit" value="attentiondeficit">
+                <label for="attentiondeficit">注意力不足</label>
+            </div>
+            <p>3. 每週累積運動量約為多少？</p>
+            <div class="mb-3">
+                <input type="radio" name="over150min" id="over150min" value="over150min">
+                <label for="over150min">150 分鐘以上</label>
+                <input type="radio" name="75-150" id="75-150" value="75-150">
+                <label for="75-150">75~150 分鐘</label>
+               </div>
+            <div class="mb-8">
+                <input type="radio" name="30-75" id="30-75" value="30-75">
+                <label for="30-75">30~75 分鐘</label>
+                <input type="radio" name="below30" id="below30" value="no">
+                <label for="no">30 分鐘以下</label>
+            </div>
+            <p>4. 上課預約報到日</p>
+            <p>若還沒有確定的日期，可以等待專員與您聯絡時在做詳細的諮詢哦！</p>
+            <input class="mb-8" type="text" placeholder="MM/DD/YYYY" name="datepicker">
+            <p>5. 填寫基本資料，完成預約後會寄送通知至電子信箱</p>
+            <div class="d-flex mb-8">
+            <div class="col-6 d-flex flex-column me-2">
+            <label for="name">姓名</label>
+            <input type="text" name="name" placeholder="請輸入您的姓名">
+            </div>
+            <div class="col-6 d-flex flex-column">
+            <label for="age">年齡</label>
+            <input type="text" name="age" placeholder="請輸入您的年齡">
+            </div>
+            </div>
+            <div class="mb-3">
+            <label for="sex-select">性別</label>
+            <select name="sex" id="sex-select">
+            <option value="female">女</option>
+            <option value="male">男</option>
+            </select>
+            </div>
+        
+            <div class="d-flex flex-column mb-3">
+            <label for="email">電子信箱</label>
+            <input type="email" name="email" id="email" placeholder="email@example.com">
+            </div>
+            <div class="d-flex flex-column mb-8">
+            <label for="tel">手機號碼</label>
+            <input type="tel" name="tel" id="tel" placeholder="0912-345-678">
+            </div>
+            <br>
+            <input type="submit" value="送出" class="w-100 bg-primary text-light border-0 rounded mb-80">
+           </form>
+        </div>
+    </div>
+</div>
