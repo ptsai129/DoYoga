@@ -13840,6 +13840,10 @@ ul {
   }
 }
 
+.block {
+  display: block;
+}
+
 .primary {
   color: #907a7b;
 }
