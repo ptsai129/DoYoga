@@ -1,0 +1,1 @@
+{"version":3,"sources":["layout/completedreservation.scss","layout/completedreservation.css"],"names":[],"mappings":"AAAA;EACI,oBAAoB;ACCxB","file":"completedreservation.css","sourcesContent":[".mb-104{\r\n    margin-bottom: 104px;\r\n}",".mb-104 {\n  margin-bottom: 104px;\n}\n"]}
